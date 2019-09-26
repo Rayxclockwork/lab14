@@ -1,5 +1,6 @@
 body{
   background-color: bisque;
+  margin:10px;
 }
 
 
@@ -13,4 +14,14 @@ font-family: Arial, Helvetica, sans-serif;
 a{
   color: brown;
   text-decoration: none;
+}
+label{
+  padding: 5%;
+}
+fieldset{
+  margin: 20px;
+}
+legend{
+  font-size: 3em;
+  
 }
