@@ -1,13 +1,22 @@
 'use strict';
 
+var addTheItem = document.getElementById('items');
+// var Cart.allOrderQuant=[];
+// var custChoice = [];
 // Cart constructor.
 var Cart = function(items) {
   // this.items is an array of CartItem instances.
   this.items = items;
+  Cart.allOrderQuant.push(this);
 };
 
 Cart.prototype.addItem = function(product, quantity) {
-  // TODO: Fill in this instance method to create a new CartItem and add it to this.items
+  // TODO: Fill in this instance method to create a new CartItem and add it to this.items\
+  for(var i = 0; 1 < Product.allProducts.length; i++){
+    Product.allProducts[i].name = addTheItem;
+    var outPut = `${Product.allProducts[i].name}`;
+    addTheItem.appendChild(outPut);
+  }
 };
 
 Cart.prototype.saveToLocalStorage = function() {
@@ -55,5 +64,8 @@ function generateCatalog() {
   new Product('assets/wine-glass.jpg', 'Wine Glass');
 }
 
+
+// console.log(generateCatalog);
+// itemSelect = generateCatalog();
 // Initialize the app by creating the big list of products with images and names
 generateCatalog();
