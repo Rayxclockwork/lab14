@@ -21,7 +21,10 @@ function populateForm() {
 // object, save the whole thing back to local storage and update the screen
 // so that it shows the # of items in the cart and a quick preview of the cart itself.
 function handleSubmit(event) {
-
+event.preventDefault();
+if (somthing happens){
+  var blank/////////
+}
   // TODO: Prevent the page from reloading
 
   // Do all the things ...
