@@ -1,1 +1,27 @@
+body{
+  background-color: bisque;
+  margin:10px;
+}
 
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(50, 7, 111);
+  text-align: center;
+}
+
+a{
+  color: brown;
+  text-decoration: none;
+}
+label{
+  padding: 5%;
+}
+fieldset{
+  margin: 20px;
+}
+legend{
+  font-size: 3em;
+  
+}
